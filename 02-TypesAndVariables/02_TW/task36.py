@@ -4,3 +4,10 @@
 #Spread: 0.0310
 
 
+purchase_price_str = input("Enter EUR purchase price in bank: ")
+purchase_price = float(purchase_price_str)
+sell_price_str = input("Enter EUR selling price in bank: ")
+sell_price = float(sell_price_str)
+spread = sell_price - purchase_price
+spread_f = f"{spread:.4f}"
+print("Spread equals: ", spread_f)
