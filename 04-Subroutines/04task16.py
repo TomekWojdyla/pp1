@@ -12,5 +12,6 @@ def product (x,y):
 a=float(input("Enter number a: "))
 b=float(input("Enter number b: "))
 
-pro = product(a,b)
-print(f"The product of {a} and {b} equals {pro}")
+#pro = product(a,b)
+#print(f"The product of {a} and {b} equals {pro}")
+print(f"The product of {a} and {b} equals {product(a,b)}")

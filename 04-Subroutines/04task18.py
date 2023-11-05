@@ -4,11 +4,24 @@
 
 #????
 
+#def numbers(n):
+#       i=1
+#        while i < n:
+#                print(i, end=" ")
+#                i=i+1
+#        return a
+
+#prov=int(input("Provide max element in range: "))        
+#print(f"Numbers <1,{prov}>: ", numbers(prov))
+
 def numbers(n):
-        i=1
-        while i < n:
-                print(i)
-                i=i+1
-                
+        a=""
+        for i in range(1,n+1):
+                b=str(i)
+                a=a+" "+b
+        return a
+
+#print(numbers(5))
+
 prov=int(input("Provide max element in range: "))        
-print("Numbers in range are: ", numbers(prov))
+print(f"Numbers <1,{prov}>: ", numbers(prov))

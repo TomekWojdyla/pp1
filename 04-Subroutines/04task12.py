@@ -10,18 +10,14 @@ max_number = max(7,5,6,3,8,2)
 print('Max number of 7,5,6,3,8,2 is', max_number) 
 
 # task b
-binary = bin(304)
-print("binary representation of 304 is: ", binary)
+print("binary representation of 304 is: ", bin(304))
 
 # task c
-hexadecimal = hex(304)
-print("hexadecimal representation of 304 is: ", hexadecimal)
+print("hexadecimal representation of 304 is: ", hex(304))
 
-# task d -> tego nie umiem
-#unicode = ord(€)
-#euro = "\N{euro sign}"
-#print = ("\N{euro sign}")
-#print("Unicode representation of € is: ", unicode)
+# task d 
+#unicode = ord("€")
+print("Unicode representation of € is: ", ord("€"))
 
 # task e
 print("absolute value of -17 is: ", abs(-17))

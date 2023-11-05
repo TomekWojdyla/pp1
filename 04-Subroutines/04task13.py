@@ -7,10 +7,10 @@
 import math
 
 #task a
-print("natural logarytm of 5 is: ", math.log(5))
+print("natural logarithm of 5 is: ", math.log(5))
 
 #task b
-print("e rised to the power of 3 is: ", math.exp(3))
+print("e raised to the power of 3 is: ", math.exp(3))
 
 #task c
 print("square root of 7 is: ", math.sqrt(7))
