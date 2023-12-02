@@ -16,11 +16,16 @@
 #4. Ukraine
 #5. Lithuania
 
+#open file
 file = open("countries_tw.txt")
+#counter
 number =0
+#read by line
 for line in file:
-    line = line.rstrip()
+#alt  line = line.rstrip()
     number +=1
-    print(f"{number}. {line}")
+#alt  print(f"{number}. {line}")
+    print(f"{number}. {line}", end="")
+print()
 file.close()
     

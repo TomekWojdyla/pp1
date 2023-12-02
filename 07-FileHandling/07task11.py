@@ -8,6 +8,8 @@ sum=0
 for line in file:
     a=int(line)
     sum +=a
-    disp += str(a) +", "
+#    disp += str(a) +", "
+    disp += line.rstrip() + ", " 
 print(f"Numbers are: {disp}")
 print(f"Sum of numbers is: {sum}")
+file.close()
