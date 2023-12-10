@@ -1,4 +1,4 @@
-def funct(n1, n2):
+def f(n1, n2):
     n1_str = str(n1)
     sum = 0
     if n2 == True:
@@ -15,13 +15,13 @@ def funct(n1, n2):
                 pass
     return sum
 
-#g = funct(3124,True)
+#g = f(3124,True)
 #print(g)
-#g = funct(3124,False)
+#g = f(3124,False)
 #print(g)
-#g = funct(20576,True)
+#g = f(20576,True)
 #print(g)
-#g = funct(20576,False)
+#g = f(20576,False)
 #print(g)
-#g = funct(13115,True)
+#g = f(13115,True)
 #print(g)
