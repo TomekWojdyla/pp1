@@ -24,3 +24,4 @@ mobile = {
 for key,value in mobile.items():
     print(f"{key} : {value}")
 
+print(mobile)

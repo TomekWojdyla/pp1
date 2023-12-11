@@ -23,7 +23,6 @@ countries = [
 ]
 
 i=0
-
 while i < len(countries):
-#    print("countries[i]["name"], countries[i]["population"])
+    print(countries[i]["name"], countries[i]["population"])
     i += 1

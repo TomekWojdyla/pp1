@@ -1,0 +1,10 @@
+{
+    "name": "Barbara",
+    "age": 21,
+    "status": "student",
+    "married": false,
+    "interest": [
+        "reading",
+        "swimming"
+    ]
+}

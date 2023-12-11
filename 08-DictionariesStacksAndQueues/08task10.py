@@ -16,6 +16,6 @@ with open("data.json") as file:
 i=0
 
 while i < len(data):
-    print(data[i]["name"], ) #to można rozbudowac 
+    print(data[i]["name"], data[i]["surname"], data[i]["country"]) #to można rozbudowac 
     i += 1
 

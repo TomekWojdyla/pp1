@@ -1,0 +1,38 @@
+[{
+    "name": "Tomasz",
+    "surname": "Wojdyla",
+    "born-place": "Rabka",
+    "born-date": 1982,
+    "AZS": true,
+    "high_school": "Goszczy\u0144ski Nowy Targ",
+    "hobby": [
+        "volleyball, snowboard, Python"
+    ],
+    "telephone": {
+        "work": "126789999",
+        "Mobile": "603510248"
+    },
+    "email": {
+        "private": "tomiwojdyla@o2.pl",
+        "School": "234216@student.uek.krakow.pl"
+    }
+},
+{
+    "name": "Tomasz",
+    "surname": "Wojdyla",
+    "born-place": "Rabka",
+    "born-date": 1982,
+    "AZS": true,
+    "high_school": "Goszczy\u0144ski Nowy Targ",
+    "hobby": [
+        "volleyball, snowboard, Python"
+    ],
+    "telephone": {
+        "work": "126789999",
+        "Mobile": "603510248"
+    },
+    "email": {
+        "private": "tomiwojdyla@o2.pl",
+        "School": "234216@student.uek.krakow.pl"
+    }
+}]
