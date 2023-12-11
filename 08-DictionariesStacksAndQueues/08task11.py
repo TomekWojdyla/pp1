@@ -16,7 +16,7 @@ movie = {
     "length": "140min",
     "actors":["Jason Clarke","Jake Gyllenhaal", "Emily Watson"],
 }
-
+print(movie)
 import json
 
 data_movie = open("favourite.json","w")
