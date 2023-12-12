@@ -11,3 +11,8 @@
 #Words ordered alphabetically: a,An,apple,away,…
 
 var_text = "An apple a day keeps the doctor away"
+
+import MyText_tw
+
+g = MyText_tw.word_count(var_text)
+print(g)
