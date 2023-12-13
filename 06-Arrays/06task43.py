@@ -16,3 +16,9 @@ import MyText_tw
 
 g = MyText_tw.word_count(var_text)
 print(g)
+
+g = MyText_tw.word_ordered(var_text)
+print(g)
+
+g = MyText_tw.word_alpha(var_text)
+print(g)
