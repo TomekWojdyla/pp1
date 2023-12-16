@@ -1,0 +1,7 @@
+def f(age):
+    if age<=2:
+        year_dog = 10.5*age
+    else:
+        year_dog = 10.5*2+(age-2)*4
+    return year_dog
+

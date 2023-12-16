@@ -34,7 +34,7 @@ def f(first_letter, last_letter):
 
 if __name__ == "__main__":
     # function calls
-    print(f("T","e"))
+    print(f("a","d"))
    # print(f("t","t"))
    # print(f("j","t"))
 

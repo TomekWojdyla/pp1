@@ -7,17 +7,20 @@
 #Then, write a program to convert data from CSV to JSON. The program reads product data from the CSV file and writes the data to a JSON file.
 
 import json
+import csv
 
-org = open("products.csv")
-org_content = org.read()
-print(org_content)
+file = open("products.csv")
+csv_reader = csv.DictReader(file)
+line_count = 0
+values = []
+for line in csv_reader:
+    values.append(line)
 
-for i in range(1):
-    
-    
-new = open("products_new.json","a")
+#print(values)
+new = open("products.json","w")
+data = json.dumps(values, indent=4)
+new.write(data)
 
-
-
+#new.close()
+file.close()
 new.close()
-org.close()

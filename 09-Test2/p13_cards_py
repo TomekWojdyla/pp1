@@ -1,0 +1,46 @@
+def f(set):
+    cards = ["2","3","4","5","6","7","8","9","T","J","Q","K","A"]
+    lent = len(set)
+    for i in range(lent):
+        if set[i] in cards:
+            cards.remove(set[i])
+        else:
+            pass
+        missing = cards[0]
+    return missing
+    
+    
+    
+    
+    
+    
+g = f("23456789JQKA")
+print(g)
+g = f("23456789TJQA")
+print(g)
+g = f("3456789TJQKA")
+print(g)
+
+
+person={
+    "name": "Marek",
+    "surname":"Banach",
+    "age":25,
+    "hobby":["swimming","excersice"],
+    "married": True,
+    "phone":{"mobile":"123456789","work":"987654321"}
+}
+
+print(person)
+print(person["name"])
+person["name"] = "Nowak"
+print(person)
+person["married"] = not person["married"]
+print(person)
+#person.update({"gender":"male"})
+person["gender"] = "male"
+print(person)
+person["hobby"] = person["hobby"]+["bicycle"]
+print(person)
+person["phone"]["landline"] = "555-7777"
+print(person)
