@@ -5,6 +5,17 @@
 #Year:      2017
 
 class Music():
-    def __init__ (self,artist, track title, album, year)
+    def __init__(self,artist, track_title, album, year):
         self.artist= artist
+        self.track_title = track_title
+        self.album = album
+        self.year =year
+    def __str__(self):
+        desc = "Performer: " + self.artist + "\n" +"Song:      " + self.track_title + "\n" +"Album:     " + self.album + "\n" +"Year:      " + str(self.year) +"\n"
+        return desc
         
+song1 = Music("Aerosmith", "Cryin'", "Get a Grip", 1993)
+song2 = Music("Offspring", "Self-esteem", "Smash", 1994)
+
+print(song1)
+print(song2)

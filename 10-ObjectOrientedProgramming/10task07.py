@@ -23,6 +23,7 @@ print(f"This book has {book.pages} pages.")
 
 book.open()
 book.change_page(15)
+book.close()
 
 if book.is_open:
     print(f"Reading the book, page {book.current_page}")

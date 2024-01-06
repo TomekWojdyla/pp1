@@ -1,0 +1,1 @@
+#16.	Create a class that describes cell phones with at least 3 phone states and 2 behaviors. Define a text representation of an object. Then, create 2 objects. Display their features and call their bahaviors.
